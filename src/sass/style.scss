@@ -1,0 +1,24 @@
+@use "base/mixins";
+@use "blocks/promo" as *;
+@use "blocks/header" as *;
+@use "blocks/buttons" as *;
+@use "blocks/advantages" as *;
+@use "media/media" as *;
+
+
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}

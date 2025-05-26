@@ -1,0 +1,65 @@
+@use "base/variables";
+
+.advantages {
+    background-color: #F6F6F6;
+
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 73px 0 60px 0;
+        font-weight: 700;
+        font-size: 30px;
+        color: #0D0D0D;
+    }
+
+    &__icons {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 68px;
+        padding-bottom: 65px;
+    }
+
+    &__span1 {
+        color: variables.$main-color;
+        display: inline-block;
+    }
+
+    &__icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 277px;
+
+        img {
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        span {
+            margin-bottom: 20px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            color: #0D0D0D;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 18px;
+            color: #0D0D0D;
+
+            span {
+                color: variables.$main-color;
+                display: inline;
+                text-transform: uppercase;
+                font-size: 14px;
+                text-align: center;
+                font-family: 'Museo moderno', sans-serif;
+            }
+        }
+    }
+}
