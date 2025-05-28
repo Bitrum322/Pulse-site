@@ -46,7 +46,34 @@
         }
     }
 
+    .consultation {
+        text-align: center;
+        padding: 55px 0 55px 0;
 
+        .feed-form {
+            width: 100%;
+            align-items: center;
+        }
+
+        &__descr {
+            margin: 0px 10px;
+        }
+    }
+
+    .title_left {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .feed-form {
+        width: auto;
+    }
+
+    .button {
+        &_submit {
+            width: 50%;
+        }
+    }
 }
 
 @media (max-width: 420px) {
