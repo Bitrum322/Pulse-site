@@ -4,9 +4,13 @@
 @use "blocks/buttons" as *;
 @use "blocks/advantages" as *;
 @use "blocks/titles" as *;
-@use "media/media" as *;
 @use "blocks/consultation" as *;
 @use "blocks/forms" as *;
+@use "blocks/carousel" as *;
+@use "blocks/catalog" as *;
+@use "blocks/footer" as *;
+@use "blocks/reviews" as *;
+@use "media/media" as *;
 
 
 
@@ -20,6 +24,7 @@ h3,
 h4 {
     margin: 0;
 }
+
 
 .container {
     max-width: 950px;

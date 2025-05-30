@@ -1,5 +1,35 @@
 @use "base/variables";
 
+@keyframes button {
+    0% {
+        transform: translateY(0);
+    }
+
+    10% {
+        transform: translateY(-5px);
+    }
+
+    20% {
+        transform: translateY(-10px);
+    }
+
+    40% {
+        transform: translateY(0px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+
+    80% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .button {
     background-color: variables.$main-color;
     width: 153px;
@@ -12,12 +42,17 @@
     text-transform: uppercase;
     color: #FFFFFF;
 
+    &:hover {
+        animation: button 1s ease-in-out;
+    }
+
     &_main {
         background-color: variables.$main-color;
         width: 300px;
         height: 50px;
         font-size: 16px;
         margin-top: 67px;
+        animation: 0.6s ease-in-out;
     }
 
     &_submit {
@@ -25,5 +60,11 @@
         height: 55px;
         font-size: 16px;
         text-transform: uppercase;
+    }
+
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
     }
 }

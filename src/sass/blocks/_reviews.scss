@@ -1,0 +1,63 @@
+.reviews {
+    margin-bottom: 48px;
+
+    .title {
+        padding-top: 0;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 60px;
+    }
+
+    &__card {
+        display: flex;
+        align-items: flex-start;
+        justify-content: left;
+        gap: 60px;
+    }
+
+    &__main {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+
+    &__top {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+        margin-bottom: 10px;
+
+        span {
+            display: block;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            color: #646464;
+
+        }
+    }
+
+    &__descr {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+
+        span {
+            font-family: 'MuseoModerno';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}
